@@ -7,6 +7,8 @@
     <title>Fortnite news</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icon.png" type="icon/image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 </head>
 <body>
   <header>
@@ -30,11 +32,26 @@
     <div class="intro">
       <p>Здравствуйте, это сайт по фортнайту на котором будут выкладываться новости про игру и магазин предметов. Автор: Nemo_LirtpuT Тег автора: lirtpuT</p>
       </div>
+    <div class="slider">
+      <img src="https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fintroducing-item-shop-voting%2FCommunityVoting_Header-1920x1080-de09a58a5107bd3d3a8bd2e16bf519da4ae05e37.jpg" alt="Fortnite">
+      <img src="https://cdn2.unrealengine.com/13br-evergreens-purpink-social2-1920x1080-339416340.jpg" alt="Fortnite">
+      <img src="https://gamesmoments.ru/wp-content/uploads/2019/11/%D0%9E%D0%91%D0%9D%D0%9E%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95-11.20-FORTNITE.jpg" alt="Fortnite">
+    </div>
 
   </main>
   <footer>
 
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script> 
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        // autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    });			
+  </script>
 </body>
 </html>
  

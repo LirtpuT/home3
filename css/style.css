@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
     background-color: white;
     font-size: 36px;
     color: white;
     background-image: url(http://elitefon.ru/pic/201211/1920x1080/elitefon.ru-10450.jpg);
+    font-family: 'Anton', sans-serif;
 }
 header > img{
    height: 50px;
@@ -16,10 +18,13 @@ ul {
   padding: 0;
   overflow: hidden ;
   background-color: #333;
+  
+ 
 }
 
 li {
   float: left;
+  font-family: 'Anton', sans-serif;
 }
 
 li a, .dropbtn {
@@ -59,3 +64,28 @@ li.dropdown {
 .dropdown:hover .dropdown-content{
   display: block;
 }
+
+.slider {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-arrow{
+   z-index: 2;
+
+}
+/* .slider.slick-next:before{ 
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  content: "";
+}
+.slider.slick-prev:before {
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  content: "";
+} */
